@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		927BB9B7FC18DB5D5C9AF543 /* libPods-Browser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F426B2AE9DFBF457508D85C /* libPods-Browser.a */; };
 		ADB27E16215F19CD00B97166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E15215F19CD00B97166 /* AppDelegate.m */; };
-		ADB27E19215F19CD00B97166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E18215F19CD00B97166 /* ViewController.m */; };
 		ADB27E1C215F19CD00B97166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB27E1A215F19CD00B97166 /* Main.storyboard */; };
 		ADB27E1E215F19CD00B97166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB27E1D215F19CD00B97166 /* Assets.xcassets */; };
 		ADB27E21215F19CD00B97166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB27E1F215F19CD00B97166 /* LaunchScreen.storyboard */; };
-		ADB27E24215F19CD00B97166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E23215F19CD00B97166 /* main.m */; };
 		ADB27E2E215F19CD00B97166 /* BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E2D215F19CD00B97166 /* BrowserTests.m */; };
 		ADB27E39215F19CD00B97166 /* BrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E38215F19CD00B97166 /* BrowserUITests.m */; };
+		ADB27E4A215F1FA500B97166 /* BrowserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E49215F1FA500B97166 /* BrowserVC.m */; };
+		ADB27E55215F2B4B00B97166 /* BrowserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E54215F2B4B00B97166 /* BrowserViewModel.m */; };
+		ADB27E57215F2C7D00B97166 /* BrowserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB27E56215F2C7D00B97166 /* BrowserVC.xib */; };
+		ADB27E5B215F2D2300B97166 /* BrowserJS.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E5A215F2D2300B97166 /* BrowserJS.m */; };
+		ADB27E5E215F466100B97166 /* BrowserJSString.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E5D215F466100B97166 /* BrowserJSString.m */; };
+		ADB27E61215F499400B97166 /* BrowserJSFuncs.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E60215F499400B97166 /* BrowserJSFuncs.m */; };
+		ADB27E64215F4AFB00B97166 /* BrowserService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E63215F4AFB00B97166 /* BrowserService.m */; };
+		ADB27E6A215F587300B97166 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E69215F587300B97166 /* BaseViewController.m */; };
+		ADB27E6D215F588300B97166 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E6B215F588300B97166 /* BaseViewModel.m */; };
+		ADB27E70215F58AA00B97166 /* BrowserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E6F215F58AA00B97166 /* BrowserConfig.m */; };
+		ADB27E73215F58EC00B97166 /* BrowserHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E72215F58EC00B97166 /* BrowserHTML.m */; };
+		ADB27E76215F59A700B97166 /* BrowserSub.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E75215F59A700B97166 /* BrowserSub.m */; };
+		ADB27E79215F68FE00B97166 /* BrowserNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E78215F68FE00B97166 /* BrowserNavi.m */; };
+		ADB27E7C215F6BEC00B97166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E7B215F6BEC00B97166 /* ViewController.m */; };
+		ADB27E7F215F6E9400B97166 /* UIView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E7E215F6E9400B97166 /* UIView+Tool.m */; };
+		ADB27E80215F6FCB00B97166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB27E23215F19CD00B97166 /* main.m */; };
+		ADB27E83215F713D00B97166 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = ADB27E82215F713D00B97166 /* ExampleApp.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CBB41C824C912649F2CD955 /* Pods-Browser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Browser.release.xcconfig"; path = "Pods/Target Support Files/Pods-Browser/Pods-Browser.release.xcconfig"; sourceTree = "<group>"; };
+		646FCD3D671D8D1C5BEEA551 /* Pods-Browser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Browser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Browser/Pods-Browser.debug.xcconfig"; sourceTree = "<group>"; };
+		8F426B2AE9DFBF457508D85C /* libPods-Browser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Browser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB27E11215F19CD00B97166 /* Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB27E14215F19CD00B97166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADB27E15215F19CD00B97166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADB27E17215F19CD00B97166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ADB27E18215F19CD00B97166 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ADB27E1B215F19CD00B97166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADB27E1D215F19CD00B97166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB27E20215F19CD00B97166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ADB27E22215F19CD00B97166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB27E22215F19CD00B97166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Browser/Info.plist; sourceTree = "<group>"; };
 		ADB27E23215F19CD00B97166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADB27E29215F19CD00B97166 /* BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB27E2D215F19CD00B97166 /* BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserTests.m; sourceTree = "<group>"; };
@@ -51,6 +68,37 @@
 		ADB27E34215F19CD00B97166 /* BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB27E38215F19CD00B97166 /* BrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserUITests.m; sourceTree = "<group>"; };
 		ADB27E3A215F19CD00B97166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB27E48215F1FA500B97166 /* BrowserVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserVC.h; sourceTree = "<group>"; };
+		ADB27E49215F1FA500B97166 /* BrowserVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserVC.m; sourceTree = "<group>"; };
+		ADB27E53215F2B4B00B97166 /* BrowserViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserViewModel.h; sourceTree = "<group>"; };
+		ADB27E54215F2B4B00B97166 /* BrowserViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserViewModel.m; sourceTree = "<group>"; };
+		ADB27E56215F2C7D00B97166 /* BrowserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowserVC.xib; sourceTree = "<group>"; };
+		ADB27E59215F2D2300B97166 /* BrowserJS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserJS.h; sourceTree = "<group>"; };
+		ADB27E5A215F2D2300B97166 /* BrowserJS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserJS.m; sourceTree = "<group>"; };
+		ADB27E5C215F466100B97166 /* BrowserJSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserJSString.h; sourceTree = "<group>"; };
+		ADB27E5D215F466100B97166 /* BrowserJSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserJSString.m; sourceTree = "<group>"; };
+		ADB27E5F215F499400B97166 /* BrowserJSFuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserJSFuncs.h; sourceTree = "<group>"; };
+		ADB27E60215F499400B97166 /* BrowserJSFuncs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserJSFuncs.m; sourceTree = "<group>"; };
+		ADB27E62215F4AFB00B97166 /* BrowserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserService.h; sourceTree = "<group>"; };
+		ADB27E63215F4AFB00B97166 /* BrowserService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserService.m; sourceTree = "<group>"; };
+		ADB27E65215F526900B97166 /* BrowserMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserMarco.h; sourceTree = "<group>"; };
+		ADB27E68215F587300B97166 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		ADB27E69215F587300B97166 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		ADB27E6B215F588300B97166 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		ADB27E6C215F588300B97166 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		ADB27E6E215F58AA00B97166 /* BrowserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserConfig.h; sourceTree = "<group>"; };
+		ADB27E6F215F58AA00B97166 /* BrowserConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserConfig.m; sourceTree = "<group>"; };
+		ADB27E71215F58EC00B97166 /* BrowserHTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserHTML.h; sourceTree = "<group>"; };
+		ADB27E72215F58EC00B97166 /* BrowserHTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserHTML.m; sourceTree = "<group>"; };
+		ADB27E74215F59A700B97166 /* BrowserSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserSub.h; sourceTree = "<group>"; };
+		ADB27E75215F59A700B97166 /* BrowserSub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserSub.m; sourceTree = "<group>"; };
+		ADB27E77215F68FE00B97166 /* BrowserNavi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserNavi.h; sourceTree = "<group>"; };
+		ADB27E78215F68FE00B97166 /* BrowserNavi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserNavi.m; sourceTree = "<group>"; };
+		ADB27E7A215F6BEC00B97166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADB27E7B215F6BEC00B97166 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADB27E7D215F6E9400B97166 /* UIView+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Tool.h"; sourceTree = "<group>"; };
+		ADB27E7E215F6E9400B97166 /* UIView+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tool.m"; sourceTree = "<group>"; };
+		ADB27E82215F713D00B97166 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927BB9B7FC18DB5D5C9AF543 /* libPods-Browser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +134,8 @@
 				ADB27E2C215F19CD00B97166 /* BrowserTests */,
 				ADB27E37215F19CD00B97166 /* BrowserUITests */,
 				ADB27E12215F19CD00B97166 /* Products */,
+				DF75409C0F22A13C88B37489 /* Pods */,
+				BC31FA43C745DB126A0591B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +152,16 @@
 		ADB27E13215F19CD00B97166 /* Browser */ = {
 			isa = PBXGroup;
 			children = (
+				ADB27E52215F2B3500B97166 /* ViewModels */,
+				ADB27E47215F1F8C00B97166 /* Controllers */,
+				ADB27E58215F2CF000B97166 /* JS */,
+				ADB27E4B215F24B600B97166 /* Tools */,
+				ADB27E81215F713D00B97166 /* Resource */,
 				ADB27E14215F19CD00B97166 /* AppDelegate.h */,
 				ADB27E15215F19CD00B97166 /* AppDelegate.m */,
-				ADB27E17215F19CD00B97166 /* ViewController.h */,
-				ADB27E18215F19CD00B97166 /* ViewController.m */,
 				ADB27E1A215F19CD00B97166 /* Main.storyboard */,
-				ADB27E1D215F19CD00B97166 /* Assets.xcassets */,
-				ADB27E1F215F19CD00B97166 /* LaunchScreen.storyboard */,
-				ADB27E22215F19CD00B97166 /* Info.plist */,
+				ADB27E7A215F6BEC00B97166 /* ViewController.h */,
+				ADB27E7B215F6BEC00B97166 /* ViewController.m */,
 				ADB27E23215F19CD00B97166 /* main.m */,
 			);
 			path = Browser;
@@ -117,6 +170,9 @@
 		ADB27E2C215F19CD00B97166 /* BrowserTests */ = {
 			isa = PBXGroup;
 			children = (
+				ADB27E1D215F19CD00B97166 /* Assets.xcassets */,
+				ADB27E1F215F19CD00B97166 /* LaunchScreen.storyboard */,
+				ADB27E22215F19CD00B97166 /* Info.plist */,
 				ADB27E2D215F19CD00B97166 /* BrowserTests.m */,
 				ADB27E2F215F19CD00B97166 /* Info.plist */,
 			);
@@ -132,6 +188,87 @@
 			path = BrowserUITests;
 			sourceTree = "<group>";
 		};
+		ADB27E47215F1F8C00B97166 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADB27E68215F587300B97166 /* BaseViewController.h */,
+				ADB27E69215F587300B97166 /* BaseViewController.m */,
+				ADB27E48215F1FA500B97166 /* BrowserVC.h */,
+				ADB27E49215F1FA500B97166 /* BrowserVC.m */,
+				ADB27E56215F2C7D00B97166 /* BrowserVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADB27E4B215F24B600B97166 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				ADB27E65215F526900B97166 /* BrowserMarco.h */,
+				ADB27E6E215F58AA00B97166 /* BrowserConfig.h */,
+				ADB27E6F215F58AA00B97166 /* BrowserConfig.m */,
+				ADB27E71215F58EC00B97166 /* BrowserHTML.h */,
+				ADB27E72215F58EC00B97166 /* BrowserHTML.m */,
+				ADB27E74215F59A700B97166 /* BrowserSub.h */,
+				ADB27E75215F59A700B97166 /* BrowserSub.m */,
+				ADB27E77215F68FE00B97166 /* BrowserNavi.h */,
+				ADB27E78215F68FE00B97166 /* BrowserNavi.m */,
+				ADB27E7D215F6E9400B97166 /* UIView+Tool.h */,
+				ADB27E7E215F6E9400B97166 /* UIView+Tool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		ADB27E52215F2B3500B97166 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ADB27E6C215F588300B97166 /* BaseViewModel.h */,
+				ADB27E6B215F588300B97166 /* BaseViewModel.m */,
+				ADB27E53215F2B4B00B97166 /* BrowserViewModel.h */,
+				ADB27E54215F2B4B00B97166 /* BrowserViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ADB27E58215F2CF000B97166 /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				ADB27E62215F4AFB00B97166 /* BrowserService.h */,
+				ADB27E63215F4AFB00B97166 /* BrowserService.m */,
+				ADB27E59215F2D2300B97166 /* BrowserJS.h */,
+				ADB27E5A215F2D2300B97166 /* BrowserJS.m */,
+				ADB27E5C215F466100B97166 /* BrowserJSString.h */,
+				ADB27E5D215F466100B97166 /* BrowserJSString.m */,
+				ADB27E5F215F499400B97166 /* BrowserJSFuncs.h */,
+				ADB27E60215F499400B97166 /* BrowserJSFuncs.m */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		ADB27E81215F713D00B97166 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ADB27E82215F713D00B97166 /* ExampleApp.html */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BC31FA43C745DB126A0591B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F426B2AE9DFBF457508D85C /* libPods-Browser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF75409C0F22A13C88B37489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				646FCD3D671D8D1C5BEEA551 /* Pods-Browser.debug.xcconfig */,
+				3CBB41C824C912649F2CD955 /* Pods-Browser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADB27E3D215F19CD00B97166 /* Build configuration list for PBXNativeTarget "Browser" */;
 			buildPhases = (
+				A37606ADC9DA0E611B1EDB99 /* [CP] Check Pods Manifest.lock */,
 				ADB27E0D215F19CD00B97166 /* Sources */,
 				ADB27E0E215F19CD00B97166 /* Frameworks */,
 				ADB27E0F215F19CD00B97166 /* Resources */,
@@ -199,7 +337,7 @@
 				TargetAttributes = {
 					ADB27E10215F19CD00B97166 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					ADB27E28215F19CD00B97166 = {
 						CreatedOnToolsVersion = 9.2;
@@ -238,9 +376,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB27E83215F713D00B97166 /* ExampleApp.html in Resources */,
 				ADB27E21215F19CD00B97166 /* LaunchScreen.storyboard in Resources */,
 				ADB27E1E215F19CD00B97166 /* Assets.xcassets in Resources */,
 				ADB27E1C215F19CD00B97166 /* Main.storyboard in Resources */,
+				ADB27E57215F2C7D00B97166 /* BrowserVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +400,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A37606ADC9DA0E611B1EDB99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Browser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADB27E0D215F19CD00B97166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB27E19215F19CD00B97166 /* ViewController.m in Sources */,
-				ADB27E24215F19CD00B97166 /* main.m in Sources */,
+				ADB27E7C215F6BEC00B97166 /* ViewController.m in Sources */,
 				ADB27E16215F19CD00B97166 /* AppDelegate.m in Sources */,
+				ADB27E6A215F587300B97166 /* BaseViewController.m in Sources */,
+				ADB27E55215F2B4B00B97166 /* BrowserViewModel.m in Sources */,
+				ADB27E5E215F466100B97166 /* BrowserJSString.m in Sources */,
+				ADB27E70215F58AA00B97166 /* BrowserConfig.m in Sources */,
+				ADB27E80215F6FCB00B97166 /* main.m in Sources */,
+				ADB27E79215F68FE00B97166 /* BrowserNavi.m in Sources */,
+				ADB27E76215F59A700B97166 /* BrowserSub.m in Sources */,
+				ADB27E6D215F588300B97166 /* BaseViewModel.m in Sources */,
+				ADB27E7F215F6E9400B97166 /* UIView+Tool.m in Sources */,
+				ADB27E61215F499400B97166 /* BrowserJSFuncs.m in Sources */,
+				ADB27E73215F58EC00B97166 /* BrowserHTML.m in Sources */,
+				ADB27E64215F4AFB00B97166 /* BrowserService.m in Sources */,
+				ADB27E5B215F2D2300B97166 /* BrowserJS.m in Sources */,
+				ADB27E4A215F1FA500B97166 /* BrowserVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,27 +602,35 @@
 		};
 		ADB27E3E215F19CD00B97166 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646FCD3D671D8D1C5BEEA551 /* Pods-Browser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Browser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ADB27E3F215F19CD00B97166 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBB41C824C912649F2CD955 /* Pods-Browser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Browser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
